@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?807d6e9264815d542f0258a5122717f0") format("truetype"),
+url("./flaticon.woff?807d6e9264815d542f0258a5122717f0") format("woff"),
+url("./flaticon.woff2?807d6e9264815d542f0258a5122717f0") format("woff2"),
+url("./flaticon.eot?807d6e9264815d542f0258a5122717f0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?807d6e9264815d542f0258a5122717f0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-search:before {
+    content: "\f101";
+}
+.flaticon-user:before {
+    content: "\f102";
+}
+.flaticon-shopping-cart:before {
+    content: "\f103";
+}
+.flaticon-package:before {
+    content: "\f104";
+}
+.flaticon-open-lock:before {
+    content: "\f105";
+}
+.flaticon-reload:before {
+    content: "\f106";
+}
+.flaticon-refresh:before {
+    content: "\f107";
+}

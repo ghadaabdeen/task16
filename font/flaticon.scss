@@ -1,0 +1,53 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?807d6e9264815d542f0258a5122717f0") format("truetype"),
+url("./flaticon.woff?807d6e9264815d542f0258a5122717f0") format("woff"),
+url("./flaticon.woff2?807d6e9264815d542f0258a5122717f0") format("woff2"),
+url("./flaticon.eot?807d6e9264815d542f0258a5122717f0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?807d6e9264815d542f0258a5122717f0#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "search": "\f101",
+    "user": "\f102",
+    "shopping-cart": "\f103",
+    "package": "\f104",
+    "open-lock": "\f105",
+    "reload": "\f106",
+    "refresh": "\f107",
+);
+
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-package:before {
+    content: map-get($flaticon-map, "package");
+}
+.flaticon-open-lock:before {
+    content: map-get($flaticon-map, "open-lock");
+}
+.flaticon-reload:before {
+    content: map-get($flaticon-map, "reload");
+}
+.flaticon-refresh:before {
+    content: map-get($flaticon-map, "refresh");
+}
